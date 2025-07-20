@@ -32,8 +32,8 @@ pipeline {
             steps {
                 script {
                     sh '''
-                        git config --global user.email "tu-email@example.com"
-                        git config --global user.name "Tu Nombre"
+                        git config --global user.email "alejandro.choy@gmail.com"
+                        git config --global user.name "Alejandro"
                         git checkout gh-pages || git checkout -b gh-pages
                         cp -r dist/* .
                         git add .
